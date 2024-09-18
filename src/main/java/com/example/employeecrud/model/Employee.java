@@ -51,6 +51,20 @@ public class Employee {
     public void setDepartment(String department) {
         this.department = department;
     }
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
 }
+
+/*
+*
+* @Entity: Marks the class as a JPA entity, meaning it corresponds to a database table.
+@Id: Indicates the primary key of the entity.
+@GeneratedValue: Specifies how the primary key should be generated (e.g., auto-increment).
+*  */
 
 

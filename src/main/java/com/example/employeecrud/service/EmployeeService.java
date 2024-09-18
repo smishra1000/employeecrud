@@ -30,3 +30,9 @@ public class EmployeeService {
     }
 }
 
+/*
+
+@Service: Indicates that this class contains business logic and is a service component in the Spring context.
+@Autowired: Allows Spring to inject the EmployeeRepository bean into the service.
+ */
+
